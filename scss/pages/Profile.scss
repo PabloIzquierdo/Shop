@@ -1,0 +1,23 @@
+.profile{
+    width: 100%;
+    display: block;
+    text-align: center;
+}
+
+.profile_user,.profile_help{
+    width: 80%;
+    height: 15rem;
+    border:solid black 3px;
+    border-radius: 5px;
+    display: inline-block;
+    margin-top: 1rem;
+}
+
+.user-img, .user-data{
+    display: inline-block;
+    border: solid black 1px;
+}
+
+.help-icons{
+    display: inline-block;
+}
