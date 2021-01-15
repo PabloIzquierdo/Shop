@@ -1,0 +1,13 @@
+.seasons {
+  width: 100%; }
+  .seasons__list {
+    display: inline-block;
+    width: 100%; }
+    .seasons__list-item {
+      width: 20%; }
+    .seasons__list-title {
+      opacity: 0; }
+    .seasons__list-image {
+      width: 20%; }
+    .seasons__list-btn {
+      opacity: 0; }

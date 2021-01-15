@@ -10,7 +10,9 @@ import Team from './pages/Team';
 import Profile from './pages/Profile';
 
 
-function App() {
+
+const App = () => {
+
   return (
     <>
     <Router>
