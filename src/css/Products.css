@@ -1,38 +1,40 @@
 .products {
   width: 100%;
   text-align: center;
-  display: block; }
-  .products__search--form {
-    width: 80%;
-    display: inline-block;
-    padding: 1rem; }
-  .products__search--item-input, .products__search--item-iconBox {
-    display: inline-block; }
-  .products__search--item-input {
-    width: 80%;
-    height: 3.5vw;
-    font-size: 1.5rem;
-    padding: 1.5vw;
-    border-color: #060b26;
-    color: grey;
-    border-top-left-radius: 10px; }
-  .products__search--item-input:focus {
-    outline: none; }
-  .products__search--item-iconBox {
+  display: block;
+  box-sizing: border-box; }
+  .products__search--item {
     vertical-align: middle;
-    height: 3.55vw;
-    font-size: 1.9vw;
-    padding: .2vw 2.5vw 0 2.5vw;
-    margin-top: .6vw;
-    background-color: #060b26;
-    cursor: pointer;
-    -webkit-transform: translate(-0.3vw, -0.1vw);
-    transform: translate(-0.3vw, -0.18vw);
-    border-top-right-radius: 10px;
-    border: 1px solid #060b26; }
-  .products__search--item-icon {
-    vertical-align: middle;
-    color: white; }
+    margin: 0;
+    height: 5vw;
+    position: relative;
+    width: 70%;
+    margin: 4vw 20vw 2vw 20vw; }
+    .products__search--item-input {
+      width: 70%;
+      height: 3.5vw;
+      font-size: 1.5rem;
+      border-color: #060b26;
+      color: grey;
+      border-top-left-radius: 10px;
+      float: left;
+      padding-left: 2vw; }
+    .products__search--item-input:focus {
+      outline: none; }
+    .products__search--item-iconBox {
+      height: 3.5vw;
+      width: 8vw;
+      font-size: 1.9vw;
+      background-color: #060b26;
+      cursor: pointer;
+      border-top-right-radius: 10px;
+      border: 1px solid #060b26;
+      position: absolute;
+      float: left;
+      margin-left: 20%; }
+    .products__search--item-icon {
+      vertical-align: middle;
+      color: white; }
   .products__list {
     display: inline-block;
     margin: 5vw 4vw 10vw 0;

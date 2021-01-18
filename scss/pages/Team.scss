@@ -1,0 +1,17 @@
+.teamContainer{
+    width: 100%;
+    border: solid $color-black 1px;
+}
+
+.teamIconsContainer{
+    color:$principal-color;
+    padding: 1rem;
+}
+
+#twitter:hover, #facebook:hover,#instagram:hover{
+    color: $secondary-color;
+}
+
+#youtube:hover, #pinterest:hover{
+    color: $color-red;
+}

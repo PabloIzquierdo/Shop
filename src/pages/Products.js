@@ -2,6 +2,7 @@ import React from 'react';
 import marcas from '../components/marcas.json';
 import {Search} from '../components/Search';
 import {ListSearched} from '../components/ListSearched';
+import {Results} from '../components/Results';
 
 const Products = () => {
 
@@ -17,12 +18,16 @@ const Products = () => {
         setSearchTerm(even.target.value);
     };
 
-    const setSelected = "";
+    const [selected, setSelected] = React.useState(localStorage.getItem("results") || "");
+
+    React.useEffect(() => {
+        localStorage.setItem("results", selected);
+    },[selected]);
 
     const handleSelected = even => {
-        const selected = document.getElementById("products");
-        selected.style.display = "inline-block";
-        console.log(even.target.textContent);
+        const display = document.getElementById("results");
+        display.style.display = "inline-block";
+        setSelected(even.target.textContent || even.target.getAttribute("alt"));
     };
 
     const searchedMarcas = marcas.filter(function(marca){
@@ -35,9 +40,7 @@ const Products = () => {
             <hr/>
             <ListSearched onClick={handleSelected} list={searchedMarcas}/>
             <hr/>
-            <div id="products">
-                <h1>ELEMENTS</h1>
-            </div>
+            <Results item={selected} onLoad={localStorage.setItem("results","")}/>
         </div>
     );
 }

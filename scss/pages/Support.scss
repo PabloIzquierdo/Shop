@@ -1,0 +1,43 @@
+.supportContainer{
+    width: 100%;
+    border: solid $color-black 1px;
+    text-align: center;
+    background-color: $principal-color;
+}
+
+.supportContainer li{
+    border: solid $color-white 3px;
+    display: inline-block;
+    padding: 1rem;
+    margin: 1rem;
+    border-radius: 15px;
+    color: $color-white;
+    background-color: $principal-color;
+    height: 24rem;
+    width: 17rem;
+    vertical-align: middle;
+}
+
+.supportContainer li:hover{
+    transform: translateY(-3rem);
+}
+
+.supportContainer p{
+    font-size: 2rem;
+    margin-top: 3rem;
+}
+
+.supportContainer h1{
+    color: $color-white;
+    font-size: 9rem;
+    margin-top: 4rem;
+}
+
+.supportIcon{
+    font-size: 8rem;
+    margin-top: 1rem;
+}
+
+.supportItems{
+    margin-top: 10rem;
+}

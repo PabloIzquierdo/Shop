@@ -2,50 +2,51 @@
         width: 100%;
         text-align: center;
         display: block;
+        box-sizing: border-box;
+        padding-bottom: 4vw;
+        color: $principal-color;
+        
     &__search{
-        &--form{
-            width: 80%;
-            display: inline-block;
-            padding: 1rem;
-        }
         
         &--item{
-            
-            &-input, &-iconBox{
-                display: inline-block;
-            }
+            vertical-align: middle;
+            margin: 0;
+            height: 5vw;
+            position: relative;
+            width: 70%;
+            margin:4vw 20vw 2vw 20vw;
     
             &-input{
-                width: 80%;
+                width: 70%;
                 height: 3.5vw;
-                font-size: 1.5rem;
-                padding: 1.5vw;
-                border-color:  #060b26;
-                color:grey;
+                font-size: 2rem;
+                border:2px solid $principal-color;
+                color:$color-grey;
                 border-top-left-radius:10px;
+                float:left;
+                padding-left: 2vw;
             }
     
             &-input:focus{
                 outline: none;
             }
-    
+                
             &-iconBox{
-                vertical-align: middle;
-                height: 3.55vw;
+                height: 3.5vw;
+                width: 8vw;
                 font-size: 1.9vw;
-                padding:.2vw 2.5vw 0 2.5vw;
-                margin-top: .6vw;
-                background-color:  #060b26;
+                background-color:  $principal-color;
                 cursor: pointer;
-                -webkit-transform: translate(-.3vw, -.1vw);
-                        transform: translate(-.3vw, -.18vw);
                 border-top-right-radius:10px;
-                border:1px solid #060b26;
+                border:1px solid $principal-color;
+                position: absolute;
+                float: left;
+                margin-left: 20%;
             }
     
             &-icon{
                 vertical-align: middle;
-                color: white;
+                color: $color-white;
             }
             
         }
@@ -61,25 +62,73 @@
             text-align:center;
             padding: 2vw;
             width: 100%;
-            box-shadow: 1px 2px 2px black;
+            box-shadow: 1px 2px 2px $color-black;
             transition: all .3s;
             border-radius: 5px;
-            border: 3px solid #060b26;
-            width: 11vw;
+            border: 3px solid $principal-color;
+            width: 14vw;
 
             &:hover{
                 transform: scale(1.1);
-                box-shadow: 2px 2px 10px 1px black;
-                border: 5px solid #060b26;
+                box-shadow: 2px 2px 10px 1px $color-black;
+                border: 5px solid $principal-color;
             }
     
             &-logo{
-                width: 6vw;
+                width: 7vw;
             }
             &-title{
                 display: block;
-                font-size: 1rem;
+                font-size: 2rem;
+                padding-top: .5vw;
                 margin: 0;
+            }
+        }
+    }
+
+    &__results{
+        width: 96%;
+        margin: 2vw;
+        border: 1px solid $principal-color;
+        padding: 2vw .5vw;
+        border-radius: 5px;
+
+        &--filters{
+            width: 15%;
+            border-right: 1px solid $principal-color;
+
+            &-title{
+                font-size: 2rem;
+                margin-bottom: 2vw;
+            }
+
+            &-form{
+                label{
+                    font-size: 1.5rem;
+                }
+
+                select{
+                    font-size: 1rem;
+                }
+
+                input{
+                    background-color: $color-white;
+                    font-size: 1.7rem;
+                    margin-top: 1.5rem;
+                    padding: .3vw 2.5vw;
+                    border: 1px solid $principal-color;
+                    border-radius: 4px;
+                    cursor: pointer;
+                    transition: all .2s;
+
+                    &:hover{
+                        transform: translateY(-.2vw);
+                    }
+                    &:focus{
+                        transform: translateY(.1vw);
+
+                    }
+                }
             }
         }
     }

@@ -1,0 +1,58 @@
+.home{
+    width: 100%;
+    display: block;
+    text-align: center;
+    background-color: $principal-color;
+}
+
+.explication{
+    text-align: left;
+    display: inline-block;
+    color: $color-white;
+}
+
+.explication h1, .explication i, .explication p{
+    display: inline-block;
+}
+
+.explication p{
+    margin-left: 1.9rem;
+    letter-spacing: 1rem;
+}
+
+.explication, .homeContainer {
+    margin-top: 10rem;
+}
+
+.explication h1{
+    font-size: 15rem;
+}
+
+.homeContainer h3{
+    display: inline-block;
+    margin: 1rem;
+}
+
+.homeContainer h3:first-child{
+    background-color:$color-white;
+    color: $principal-color;
+    border-radius: 15px;
+}
+
+.homeContainer h3:last-child{
+    border: solid $color-white 2px;
+    border-radius: 15px;
+    color: $color-white;
+}
+
+.homeContainer h3{
+     padding: 1rem;
+}
+
+h3:hover{
+    transform: translateY(-0.5rem);
+}
+
+.explication i{
+    margin-left: 1rem;
+}
