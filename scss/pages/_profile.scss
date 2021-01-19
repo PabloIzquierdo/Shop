@@ -1,0 +1,55 @@
+.profile{
+    text-align: center;
+    display: block;
+    
+    &__user, &__help{
+        margin-top: 5rem;
+    }
+    
+    &__user{
+        width: 80%;
+        display: inline-block;
+
+        &--img, &--data{
+            display: inline-block;
+        }
+        
+        &--img{
+            font-size: 18rem;
+            border: solid 4px $primary-color;
+            padding: 1rem;
+            border-radius: 15%;
+            //Estamos centrando el contenedor y no el icono
+        }
+        
+        &--data{
+            text-align: left;
+            font-size: 3rem;
+
+            &-value{
+                padding: 1rem;
+                margin: 1rem;
+            }
+        }
+    }
+
+    &__help{
+        border: solid 4px $primary-color;
+        padding: 1rem;
+        border-radius: 15px;
+        display: inline-block;
+
+        &-icons{
+            display: inline-block;
+            font-size: 7rem;
+            padding: 2rem;
+        }
+        
+        &-icons:hover{
+            background-color:$primary-color;
+            color: $color-white;
+            border-radius: 15%;
+        }
+    }
+}
+

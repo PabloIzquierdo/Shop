@@ -1,0 +1,50 @@
+.support{
+
+    &__container{
+        width: 100%;
+        border: 1px solid $color-black;
+        text-align: center;
+        background-color: $primary-color;
+
+        &-title{
+            color: $color-white;
+            font-size: 9rem;
+            margin-top: 4rem;
+        }
+    }
+
+    &__items{
+        margin-top: 10rem;
+
+        &--link{
+            border: solid $color-white 3px;
+            display: inline-block;
+            padding: 1rem;
+            margin: 1rem;
+            border-radius: 15px;
+            color: $color-white;
+            background-color: $primary-color;
+            height: 24rem;
+            width: 17rem;
+            vertical-align: middle;
+
+            &:hover{
+                transform: translateY(-3rem);
+            }
+
+            &-icon{
+                font-size: 8rem;
+                margin-top: 1rem;
+            }
+
+            &-text{
+                font-size: 2rem;
+                margin-top: 3rem;
+            }
+        }  
+        
+    }
+}
+
+
+

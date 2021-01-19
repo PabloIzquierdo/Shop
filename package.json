@@ -20,7 +20,7 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "compile:sass": "node-sass --watch scss/main.scss -o src/css"
+    "compile:sass": "node-sass --watch scss/main.scss src/css/main.css"
   },
   "eslintConfig": {
     "extends": [

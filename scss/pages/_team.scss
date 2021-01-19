@@ -1,0 +1,38 @@
+.team{
+    &__container{
+        width: 100%;
+        border-bottom:1px solid $primary-color;
+        font-size: 4rem;
+        text-align: left;
+        padding: 5vw;
+        height: 30vw;
+
+        @include respond(tab-land){
+            height: 40vw;
+        }
+
+        @include respond(phone){
+            height: 50vw;
+        }
+
+        &--data ul li{
+            list-style: none;
+        }
+
+        &--icons{
+            color: $primary-color;
+            padding: 1rem;
+
+            &-1:hover{
+                color: $secondary-color;
+            }
+            
+            &-2:hover{
+                color: $color-red;
+            }
+        }
+    }
+}
+
+
+

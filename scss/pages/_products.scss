@@ -4,7 +4,8 @@
         display: block;
         box-sizing: border-box;
         padding-bottom: 4vw;
-        color: $principal-color;
+        color: $primary-color;
+        overflow-y: scroll;
         
     &__search{
         
@@ -20,7 +21,7 @@
                 width: 70%;
                 height: 3.5vw;
                 font-size: 2rem;
-                border:2px solid $principal-color;
+                border:2px solid $primary-color;
                 color:$color-grey;
                 border-top-left-radius:10px;
                 float:left;
@@ -35,10 +36,10 @@
                 height: 3.5vw;
                 width: 8vw;
                 font-size: 1.9vw;
-                background-color:  $principal-color;
+                background-color:  $primary-color;
                 cursor: pointer;
                 border-top-right-radius:10px;
-                border:1px solid $principal-color;
+                border:1px solid $primary-color;
                 position: absolute;
                 float: left;
                 margin-left: 20%;
@@ -57,6 +58,10 @@
         margin: 5vw 4vw 10vw 0;
         padding-bottom: 1vw;
         vertical-align: top;
+        
+        @media (max-width:1450px){
+            margin-bottom: 0;
+        }
 
         &--marca{
             text-align:center;
@@ -65,17 +70,35 @@
             box-shadow: 1px 2px 2px $color-black;
             transition: all .3s;
             border-radius: 5px;
-            border: 3px solid $principal-color;
+            border: 3px solid $primary-color;
             width: 14vw;
+
+            @media (max-width:1450px){
+                width: 19vw;
+            }
+
+            @include respond(tab-port){
+                width: 24vw;
+            }
+
+            @include respond(phone){
+                width: 30vw;
+            }
 
             &:hover{
                 transform: scale(1.1);
                 box-shadow: 2px 2px 10px 1px $color-black;
-                border: 5px solid $principal-color;
+                border: 5px solid $primary-color;
             }
     
             &-logo{
                 width: 7vw;
+                @media (max-width:1450px){
+                    width: 9vw;
+                }
+                @include respond(phone){
+                    width: 13vw;
+                }
             }
             &-title{
                 display: block;
@@ -89,13 +112,13 @@
     &__results{
         width: 96%;
         margin: 2vw;
-        border: 1px solid $principal-color;
+        border: 1px solid $primary-color;
         padding: 2vw .5vw;
         border-radius: 5px;
 
         &--filters{
             width: 15%;
-            border-right: 1px solid $principal-color;
+            border-right: 1px solid $primary-color;
 
             &-title{
                 font-size: 2rem;
@@ -116,7 +139,7 @@
                     font-size: 1.7rem;
                     margin-top: 1.5rem;
                     padding: .3vw 2.5vw;
-                    border: 1px solid $principal-color;
+                    border: 1px solid $primary-color;
                     border-radius: 4px;
                     cursor: pointer;
                     transition: all .2s;

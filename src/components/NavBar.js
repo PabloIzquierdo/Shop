@@ -12,24 +12,24 @@ function NavBar(){
     return(
         <>
         <IconContext.Provider value={{color: '#fff'}}>
-          <div className='navbar'>
-              <Link to='#' className='menu-bars'>
+          <div className='nav'>
+              <Link to='#' className='nav__menu-bars'>
                 <FaIcons.FaBars onClick={showSidebar} />
               </Link>
           </div>
-          <nav className={sidebar ? 'nav-menu active' : 'nav-menu'}>
-            <ul className='nav-menu-items' onClick={showSidebar}>
-              <li className='navbar-toggle'>
-                <Link to='#' className='menu-bars'>
+          <nav className={sidebar ? 'nav__menu nav__menu-active' : 'nav__menu'}>
+            <ul className='nav__menu-items' onClick={showSidebar}>
+              <li className='nav__menu-toggle'>
+                <Link to='#' className='nav__menu-bars'>
                   <AiIcons.AiOutlineClose />
                 </Link>
               </li>
               {SidebarData.map((item, index) => {
                 return(
-                    <li key={index} className={item.cName}>
+                    <li key={index} className="nav__menu-link">
                       <Link to={item.path}>
                         {item.icon}
-                        <span>{item.title}</span>
+                        <span className="nav__menu-title">{item.title}</span>
                       </Link>
                     </li>
                 )

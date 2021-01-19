@@ -1,0 +1,68 @@
+.home{
+    width: 100%;
+    display: block;
+    text-align: center;
+    background-color: $primary-color;
+    height: 100%;
+
+    &__explication, &__container {
+        margin-top: 10rem;
+    }
+
+    &__explication{
+        text-align: left;
+        display: inline-block;
+        color: $color-white;
+
+        &-title, &-icon, &-subtitle{
+            display: inline-block;
+            font-size: 3rem;
+        }
+        
+        &-title{
+            font-size: 15rem;
+        }
+
+        &-icon{
+            margin-left: 1rem;
+        }
+
+        &-subtitle{
+            margin-left: 1.9rem;
+            letter-spacing: 1rem;
+        }
+    }
+
+    &__container{
+        &-button{
+            display: inline-block;
+            margin: 1rem;
+            font-size: 6rem;
+            padding: 1rem;
+            
+            &:first-child{
+                background-color:$color-white;
+                color: $primary-color;
+                border-radius: 15px;
+            }
+            
+            &:last-child{
+                border: solid $color-white 2px;
+                border-radius: 15px;
+                color: $color-white;
+            }
+            
+            &:hover{
+                transform: translateY(-0.5rem);
+            }
+        }
+    }
+}
+
+
+
+
+
+
+
+
