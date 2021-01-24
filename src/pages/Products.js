@@ -1,25 +1,32 @@
 import React from 'react';
-import marcas from '../components/marcas.json';
+import Marks from '../components/Marks.json';
 import {Search} from '../components/Search';
 import {ListSearched} from '../components/ListSearched';
 import {Results} from '../components/Results';
 
 const Products = () => {
 
-    const initialSearch = "" ;
+    const useSemiPersistentState = () => {
+        const [mark, setMark] = React.useState("");
 
-    const [searchTerm, setSearchTerm] = React.useState(localStorage.getItem("search") || initialSearch);
+        React.useEffect(() => {
+            localStorage.setItem("search", mark);
+        },[mark]);
 
-    React.useEffect(() => {
-        localStorage.setItem("search", searchTerm);
-    },[searchTerm]);
+        return [mark,setMark];
+    }
 
+    const [mark, setMark] = useSemiPersistentState();
+
+    const searchedMark = Marks.filter(function(Mark){
+        return Mark.title.toLocaleLowerCase().includes(mark.toLowerCase());
+    });
     const handleSearch = even => {
-        setSearchTerm(even.target.value);
+        setMark(even.target.value);
     };
 
-    const [selected, setSelected] = React.useState(localStorage.getItem("results") || "");
-
+    const [selected, setSelected] = React.useState("");
+    
     React.useEffect(() => {
         localStorage.setItem("results", selected);
     },[selected]);
@@ -30,17 +37,14 @@ const Products = () => {
         setSelected(even.target.textContent || even.target.getAttribute("alt"));
     };
 
-    const searchedMarcas = marcas.filter(function(marca){
-        return marca.title.toLocaleLowerCase().includes(searchTerm.toLowerCase());
-    });
 
     return(
         <div className="products">
-            <Search onSearch={handleSearch} search={searchTerm}/>
+            <Search onSearch={handleSearch} search={mark}/>
             <hr/>
-            <ListSearched onClick={handleSelected} list={searchedMarcas}/>
+            <ListSearched onClick={handleSelected} list={searchedMark}/>
             <hr/>
-            <Results item={selected} onLoad={localStorage.setItem("results","")}/>
+            <Results item={selected}/>
         </div>
     );
 }
