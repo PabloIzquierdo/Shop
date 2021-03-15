@@ -6,6 +6,9 @@
     align-items: center;
     z-index: 2;
     border-bottom: 1px solid $color-white;
+    @include respond(tab-land){
+        border:0;
+    }
     
     &__menu{
         background-color:$primary-color;

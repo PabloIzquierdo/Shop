@@ -1,9 +1,10 @@
 import React from 'react';
+import Report from '../components/Reports/Report.js';
 
 function Reports(){
     return(
         <div className="reports">
-            <h1>Reports</h1>
+            <Report/>
         </div>
     );
 }

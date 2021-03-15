@@ -1,68 +1,193 @@
 .home{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #060b26;
+    justify-content: center;
+    height: 90vh;
+}
+
+.explication{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100%;
+    justify-content: space-around;
+}
+
+.title{
+    display: flex;
+    flex-direction: row;
+}
+
+.slogan{
+    display: flex;
     width: 100%;
-    display: block;
+    justify-content: center;
+    letter-spacing: 1rem;
+    font-size: 3rem;
+}
+
+.homeButtons{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+    font-size: 4rem;
+    padding: 2rem;
+    cursor: pointer;
+}
+.homeContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 60%;
+    width: 100%;
+}
+
+.explication h1{
+    font-size: 15rem;
+}
+
+.explication i{
+    display: flex;
+    align-items: flex-end;
+    padding-bottom: 3rem;
+    font-size: 3rem;
+}
+
+.homeButtons h3{
+    margin-left: 3rem;
+}
+
+.homeButtons h3:first-child{
+    background-color:white;
+    color: #060b26;
+}
+
+.homeButtons h3:last-child{
+    border: solid white 2px;
+    color: white;
+}
+
+.homeButtons h3{
+    padding: 1rem;
+    border-radius: 15px;
+}
+
+h3:hover{
+    transform: translateY(-0.5rem);
+}
+
+.formHome{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.formHome form{
+    display: flex;
+    flex-direction: column;
     text-align: center;
-    background-color: $primary-color;
-    height: 1000vw;
+    width: 30%;
+    border-radius: 15px;
+    margin: 1rem;
+    padding: 1rem;
+    background-color: #060b26;
+    border: solid white;
+}
 
-    &__explication, &__container {
-        margin-top: 10rem;
+#formSignUp{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    height: 100%;
+}
+
+.inputForm input{
+    padding: 1rem;
+    border: none;
+    border: solid #060b26 1px; 
+    color: #060b26;
+    font-size: 1.5rem;
+    border-radius: 5px;
+    width: 100%;
+}
+
+.inputForm label{
+    color: white;
+    font-size: 3rem;
+}
+
+.inputForm label,.inputForm input{
+    display: flex;
+    justify-content: center;
+    padding: 1rem;
+}
+
+.buttonForm{
+    text-align: center;
+    flex: 1 1 auto;
+}
+
+.buttonForm button{
+    width: 100%;
+    background-color: #060b26;
+    color: white;
+    font-size: 2rem;
+    padding: 1rem;
+    border: solid white 2px;
+    border-radius: 5px;
+    margin-top: 1rem;
+}
+
+.buttonForm button:last-child{
+    background-color: rgb(97, 45, 218);
+}
+
+.formClose{
+    color: white;
+    display: flex;
+    justify-content: flex-end;
+    font-size: 4rem;
+}
+
+@include respond(tab-land){
+    .title h1{
+        display: none;
     }
 
-    &__explication{
-        text-align: left;
-        display: inline-block;
-        color: $color-white;
-
-        &-title, &-icon, &-subtitle{
-            display: inline-block;
-            font-size: 3rem;
-        }
-        
-        &-title{
-            font-size: 15rem;
-        }
-
-        &-icon{
-            margin-left: 1rem;
-        }
-
-        &-subtitle{
-            margin-left: 1.9rem;
-            letter-spacing: 1rem;
-        }
+    .slogan{
+        display: none;
     }
 
-    &__container{
-        &-button{
-            display: inline-block;
+    .title i{
+        font-size: 20rem;
+        display: flex;
+        width: 100%;
+        justify-content: center;
+    }
+
+    .homeButtons{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        h3{
+            margin-left: 0;
+            text-align: center;
             margin: 1rem;
-            font-size: 6rem;
-            padding: 1rem;
-            
-            &:first-child{
-                background-color:$color-white;
-                color: $primary-color;
-                border-radius: 15px;
-            }
-            
-            &:last-child{
-                border: solid $color-white 2px;
-                border-radius: 15px;
-                color: $color-white;
-            }
-            
-            &:hover{
-                transform: translateY(-0.5rem);
-            }
         }
+    }
+
+    .formHome form{
+        width: 100%;
     }
 }
 
-
-
-
-
-
-
-
+@include respond (tab-port){
+   
+    .formHome form{
+        width: 80%;
+    }
+}

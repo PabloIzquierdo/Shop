@@ -1,0 +1,150 @@
+.messages{
+    background-color: #060b26;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    
+    &-text {
+        width: 100%;
+        height: 65%;
+        font-size: 3rem;
+        text-align: center;
+
+        & input{
+            width: 50%;
+            height: 3rem;
+            padding: 1rem;
+            margin-bottom: 1rem;
+            font-size: 1.5rem;
+            background-color: #060b26;
+            color: white;
+            border: 0.5px solid white;
+            border-radius: 5px;
+        }
+        & button {
+            width: 10%;
+            height: 3rem;
+            font-size: 1.5rem;
+            background-color: #060b26;
+            color: white;
+            border: 0.5px solid white;
+            border-radius: 5px;
+
+            &:hover {
+                background-color: #1a83ff;
+            }
+        }
+
+        & ul li {
+            list-style: none;
+            margin-bottom: 1rem;
+            width: 20rem;
+            margin-left: 39rem;
+            font-size: 2rem;
+
+            &:first-child {
+                margin-top: 1.5rem;
+            }
+        }
+
+        & ul li button {
+            font-size: 1rem;
+            height: 2.5rem;
+            width: 5rem;
+            margin-bottom: 1rem;
+            margin-left: 2rem;
+            background-color: #060b26;
+            color: white;
+            border: 0.5px light white;
+            border-radius: 5px;
+
+            &:hover {
+                background-color: #1a83ff;
+            }
+        }
+
+    }
+}
+
+.msg-nav {
+    width: 20%;
+    height: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    border-left: 4px solid white;
+    border-radius: 15px;
+    text-align: center;      
+    background-color: #060b26;  
+    
+    & input{
+        background-color: #060b26;
+        color: white;
+        font-size: 2rem;
+        display: flex;
+        justify-content: center;
+        border-radius: 5px;
+        padding: 2rem;
+        border: transparent;
+        border-bottom: 4px solid white;
+        border-radius: 15px;
+
+        &:hover {
+            background-color: #1a83ff;
+        }
+    }
+}
+
+.chat{
+    width: 100%;
+    height: 50%;
+
+    &-msg{
+        width: 100%;
+        display: flex;
+        height: 100%;
+        overflow-y: scroll;
+        background-color: white;
+    
+        & ul{
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            background-color: white;
+        }
+        
+        & ul li{
+            padding: 0.5rem;
+            font-size: 1.5rem;
+            color: white;
+            margin: 1rem;
+            position: relative;
+            float: right;
+            border-radius: 8px 8px 8px 8px;
+            width: 20rem;
+            background-color: #060b26;
+            border: 3px solid #060b26;
+        }
+    }
+
+    &-buttons{
+        display: flex;
+        flex-direction: row;
+        height: 3rem;
+    
+        & input:first-child{
+            width: 100%;
+            padding: 1rem;
+            font-size: 1.5rem;
+        }
+    
+        & button{
+            width: 25%;
+            border: none;
+            border: solid black 1px;
+            outline: none;
+            font-size: 1.5rem;
+        }
+    }
+}

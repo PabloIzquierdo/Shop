@@ -1,0 +1,32 @@
+[
+    {
+        "nombre" : "Adidas",
+        "id": 1,
+        "chat" : "Hola queria ayuda sobre mi pedido"
+    },
+    {
+        "nombre" : "Puma",
+        "id": 2,
+        "chat" : "Hola queria ayuda sobre mi pedido"
+    },
+    {
+        "nombre" : "Pull and Bear",
+        "id": 3,
+        "chat" : "Hola queria ayuda sobre mi pedido"
+    },
+    {
+        "nombre" : "Nike",
+        "id": 4,
+        "chat" : "Hola queria ayuda sobre mi pedido"
+    },
+    {
+        "nombre" : "Bershka",
+        "id": 5,
+        "chat" : "Hola queria ayuda sobre mi pedido"
+    },
+    {
+        "nombre" : "Stradivarius",
+        "id": 6,
+        "chat" : "Hola queria ayuda sobre mi pedido"
+    }
+]
