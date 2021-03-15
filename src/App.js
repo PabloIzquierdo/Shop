@@ -23,7 +23,6 @@ const App = () => {
         <Route path="/products" component={Products}/>
         <Route path="/messages" component={Messages}/>
         <Route path="/support" component={Support}/>
-        <Route path="/team" component={Team}/>
         <Route path="/profile" component={Profile}/>
       </Switch>
     </Router>

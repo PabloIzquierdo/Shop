@@ -22,14 +22,14 @@ function Chat() {
                     <ul>
                     {message.map(i => (
                         <div>
-                            <li>{i.mensaje}</li>
+                            <li key={i.id}>{i.mensaje}</li>
                         </div>
                     ))}
                     </ul>
                 </div>
                 <div className="chat-buttons">
                     <input type="text" value={text} onChange={(e) => setText(e.target.value)}/>
-                    <button onClick={handledAdd}>Send</button>
+                    <button onClick={handledAdd}><span>Send</span></button>
                 </div>
             </div>
         </>

@@ -8,6 +8,7 @@ html{
     color: $primary-color;
     flex-direction: column;
     margin: 2rem;
+    background-color: $color-white;
     @include respond(tab-land){
         margin:0;
     }

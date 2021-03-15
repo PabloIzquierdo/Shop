@@ -1,9 +1,10 @@
 .messages{
-    background-color: #060b26;
-    color: white;
+    background-color: $primary-color;
+    color: $color-white;
     display: flex;
     flex-direction: row;
-    align-items: center;
+    justify-content: center;
+    margin-top: 25rem;
     
     &-text {
         width: 100%;
@@ -17,18 +18,18 @@
             padding: 1rem;
             margin-bottom: 1rem;
             font-size: 1.5rem;
-            background-color: #060b26;
-            color: white;
-            border: 0.5px solid white;
+            background-color: $primary-color;
+            color: $color-white;
+            border: 0.5px solid $color-white;
             border-radius: 5px;
         }
         & button {
             width: 10%;
             height: 3rem;
             font-size: 1.5rem;
-            background-color: #060b26;
-            color: white;
-            border: 0.5px solid white;
+            background-color: $primary-color;
+            color: $color-white;
+            border: 0.5px solid $color-white;
             border-radius: 5px;
 
             &:hover {
@@ -40,8 +41,10 @@
             list-style: none;
             margin-bottom: 1rem;
             width: 20rem;
-            margin-left: 39rem;
+            margin-left: 25%;
             font-size: 2rem;
+            display: flex;
+            align-self: flex-start;
 
             &:first-child {
                 margin-top: 1.5rem;
@@ -54,9 +57,9 @@
             width: 5rem;
             margin-bottom: 1rem;
             margin-left: 2rem;
-            background-color: #060b26;
-            color: white;
-            border: 0.5px light white;
+            background-color: $primary-color;
+            color: $color-white;
+            border: 0.5px light $color-white;
             border-radius: 5px;
 
             &:hover {
@@ -67,28 +70,31 @@
     }
 }
 
-.msg-nav {
+.msg-nav{
     width: 20%;
     height: 60%;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
-    border-left: 4px solid white;
+    flex: 1;
+    border-left: 4px solid $color-white;
     border-radius: 15px;
     text-align: center;      
-    background-color: #060b26;  
+    background-color: $primary-color;  
     
     & input{
-        background-color: #060b26;
-        color: white;
-        font-size: 2rem;
+        background-color: $primary-color;
+        color: $color-white;
+        font-size: 3rem;
         display: flex;
         justify-content: center;
         border-radius: 5px;
-        padding: 2rem;
+        padding: 3rem;
         border: transparent;
-        border-bottom: 4px solid white;
+        border-bottom: 4px solid $color-white;
         border-radius: 15px;
+        text-transform: uppercase;
+        font-weight: bolder;
 
         &:hover {
             background-color: #1a83ff;
@@ -98,33 +104,53 @@
 
 .chat{
     width: 100%;
-    height: 50%;
+    height: 40vh;
+    display: flex;
+    flex: 3;
+    flex-direction: column;
 
     &-msg{
         width: 100%;
         display: flex;
         height: 100%;
         overflow-y: scroll;
-        background-color: white;
+        background-color: $color-white;
     
         & ul{
             width: 100%;
             display: flex;
             flex-direction: column;
-            background-color: white;
+            background-color: $color-white;
         }
         
         & ul li{
-            padding: 0.5rem;
-            font-size: 1.5rem;
-            color: white;
+            padding: 1rem;
+            font-size: 2.5rem;
+            color: $color-white;
             margin: 1rem;
             position: relative;
             float: right;
             border-radius: 8px 8px 8px 8px;
-            width: 20rem;
-            background-color: #060b26;
-            border: 3px solid #060b26;
+            width: 80%;
+            background-color: $primary-color;
+            border: 3px solid $primary-color;
+
+            &::after{
+                width: 30px;
+                height: 30px;
+                content: "";
+                position: absolute;
+                right: 0;
+                transform: translateX(.8rem) rotate(45deg);
+                background-color: $primary-color;
+
+                @include respond (tab-port){
+                   &{
+                    width: 15px;
+                    height: 15px;
+                   }
+                }
+            }
         }
     }
 
@@ -132,18 +158,60 @@
         display: flex;
         flex-direction: row;
         height: 3rem;
+        margin: 0;
+        padding: 0;
     
         & input:first-child{
-            width: 100%;
+            display: flex;
+            flex: 5;
             padding: 1rem;
             font-size: 1.5rem;
         }
     
         & button{
-            width: 25%;
+            display: flex;
+            flex: 1;
             border: none;
             border: solid black 1px;
             outline: none;
+            font-size: 2rem;
+            & span{
+                width: 100%;
+                text-align: center;
+                text-transform: uppercase;
+                font-weight: bolder;
+            }
+        }
+    }
+}
+
+@include respond (tab-land){
+    .messages{
+        width: 100%;
+        flex-direction:column-reverse;
+        margin-top: 5rem;
+        justify-content: center;
+        padding: 1rem;
+    }
+
+    .msg-nav{
+        flex-direction: row;
+        flex-wrap: nowrap;
+        width: 100%;
+        border-left: 0;
+        margin-bottom: 4rem;
+
+        input{
+            width: 100%;
+            font-size: 2rem;
+        }
+    }
+}
+
+@include respond(phone){
+    .msg-nav{
+
+        input{
             font-size: 1.5rem;
         }
     }

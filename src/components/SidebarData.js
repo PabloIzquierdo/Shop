@@ -21,11 +21,6 @@ export const SidebarData = [
         icon : <FaIcons.FaCartPlus />
     },
     {
-        title : 'Team',
-        path : '/team',
-        icon : <IoIcons.IoMdPeople />
-    },
-    {
         title : 'Messages',
         path : '/messages',
         icon : <FaIcons.FaEnvelopeOpenText/>

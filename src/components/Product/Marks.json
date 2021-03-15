@@ -1914,42 +1914,42 @@
                 {
                     "objectId":"srbk1",
                     "type":"Sudaderas",
-                    "name":"",
-                    "image":"",
-                    "price":"",
-                    "sex":""
+                    "name":"Sudadera Linear Logo",
+                    "image":"https://assets.reebok.com/images/w_766,h_766,f_auto,q_auto:sensitive,fl_lossy/9890bd6dc8aa41b99f06ac5300d3e952_9366/sudadera-linear-logo-french-terry-zip-up.jpg",
+                    "price":"45",
+                    "sex":"Mujer"
                 },
                 {
                     "objectId":"ccrbk1",
                     "type":"Camisas y camisetas",
-                    "name":"",
-                    "image":"",
-                    "price":"",
-                    "sex":""
+                    "name":"Camiseta sin mangas MYT",
+                    "image":"https://assets.reebok.com/images/w_766,h_766,f_auto,q_auto:sensitive,fl_lossy/ef1231d143be4670b695acda00fd8c6b_9366/camiseta-sin-mangas-myt.jpg",
+                    "price":"20",
+                    "sex":"Hombre"
                 },
                 {
                     "objectId":"parbk1",
                     "type":"Pantalones",
-                    "name":"",
-                    "image":"",
-                    "price":"",
-                    "sex":""
+                    "name":"Pantalón de chándal training essentials",
+                    "image":"https://assets.reebok.com/images/w_766,h_766,f_auto,q_auto:sensitive,fl_lossy/080a86bdada44864a08cac590084f4b9_9366/pantalon-de-chandal-training-essentials-linear-logo.jpg",
+                    "price":"30",
+                    "sex":"Hombre"
                 },
                 {
                     "objectId":"zrbk1",
                     "type":"Zapatillas",
-                    "name":"",
-                    "image":"",
-                    "price":"",
-                    "sex":""
+                    "name":"Club C 85 Awake",
+                    "image":"https://assets.reebok.com/images/w_766,h_766,f_auto,q_auto:sensitive,fl_lossy/d169b5425f1e4700ad48acde013e3f62_9366/club-c-85-awake.jpg",
+                    "price":"120",
+                    "sex":"Mujer"
                 },
                 {
                     "objectId":"acrbk1",
                     "type":"Accesorios",
-                    "name":"",
-                    "image":"",
-                    "price":"",
-                    "sex":""
+                    "name":"Mascarilla icons M/L",
+                    "image":"https://assets.reebok.com/images/w_766,h_766,f_auto,q_auto:sensitive,fl_lossy/1c1fe98b4bd94e2d8814ac8501413e5b_9366/mascarilla-icons-m-l---pack-de-3.jpg",
+                    "price":"12.60",
+                    "sex":"Hombre"
                 }
             ]
         },
@@ -1960,42 +1960,42 @@
                 {
                     "objectId":"sasc1",
                     "type":"Sudaderas",
-                    "name":"",
-                    "image":"",
-                    "price":"",
-                    "sex":""
+                    "name":"Colorblock oth hoody",
+                    "image":"https://images.asics.com/is/image/asics/2032B691_002_GF_BK_GLB?$productlist$",
+                    "price":"65",
+                    "sex":"Mujer"
                 },
                 {
                     "objectId":"ccasc1",
                     "type":"Camisas y camisetas",
-                    "name":"",
-                    "image":"",
-                    "price":"",
-                    "sex":""
+                    "name":"Sakura tank",
+                    "image":"https://images.asics.com/is/image/asics/2012B943_020_GF_BK_GLB?$productlist$",
+                    "price":"25",
+                    "sex":"Mujer"
                 },
                 {
                     "objectId":"pasc1",
                     "type":"Pantalones",
-                    "name":"",
-                    "image":"",
-                    "price":"",
-                    "sex":""
+                    "name":"Future Toky short",
+                    "image":"https://images.asics.com/is/image/asics/2011B186_600_GM_BK_GLB?$productlist$",
+                    "price":"50",
+                    "sex":"Hombre"
                 },
                 {
                     "objectId":"zasc1",
                     "type":"Zapatillas",
-                    "name":"",
-                    "image":"",
-                    "price":"",
-                    "sex":""
+                    "name":"Gel-Kayano 27",
+                    "image":"https://images.asics.com/is/image/asics/1011A767_002_SB_FR_GLB?$productlist$",
+                    "price":"180",
+                    "sex":"Hombre"
                 },
                 {
                     "objectId":"acasc1",
                     "type":"Accesorios",
-                    "name":"",
-                    "image":"",
-                    "price":"",
-                    "sex":""
+                    "name":"Gel kneepad",
+                    "image":"https://images.asics.com/is/image/asics/146815_8052_AC_BK_GLB?$productlist$",
+                    "price":"15",
+                    "sex":"Mujer"
                 }
             ]
         },
@@ -2006,37 +2006,42 @@
                 {
                     "objectId":"sbrp1",
                     "type":"Sudaderas",
-                    "name":"",
-                    "image":"",
-                    "price":""
+                    "name":"Merino funnel-neck-sweater",
+                    "image":"https://www.bananarepublic.eu/dw/image/v2/BCFZ_PRD/on/demandware.static/-/Sites-br-master-catalog/default/dwe5445526/webcontent/0019/823/506/cn19823506.jpg?sw=250&sh=500&sm=fit",
+                    "price":"119",
+                    "sex": "Mujer"
                 },
                 {
                     "objectId":"ccbrp1",
                     "type":"Camisas y camisetas",
-                    "name":"",
-                    "image":"",
-                    "price":""
+                    "name":"Flyweigth tank top",
+                    "image":"https://www.bananarepublic.eu/dw/image/v2/BCFZ_PRD/on/demandware.static/-/Sites-br-master-catalog/default/dw8459931c/webcontent/0019/859/686/cn19859686.jpg?sw=250&sh=500&sm=fit",
+                    "price":"60",
+                    "sex": "Mujer"
                 },
                 {
                     "objectId":"pbrp1",
                     "type":"Pantalones",
-                    "name":"",
-                    "image":"",
-                    "price":""
+                    "name":"Slim Performance Stretch Wool Dress Pant",
+                    "image":"https://www.bananarepublic.eu/dw/image/v2/BCFZ_PRD/on/demandware.static/-/Sites-br-master-catalog/default/dw9a395374/webcontent/0019/407/705/cn19407705.jpg?sw=250&sh=500&sm=fit",
+                    "price":"99.95",
+                    "sex": "Hombre"
                 },
                 {
                     "objectId":"zbrp1",
                     "type":"Zapatillas",
-                    "name":"",
-                    "image":"",
-                    "price":""
+                    "name":"Ankle-Strap Pump",
+                    "image":"https://www.bananarepublic.eu/dw/image/v2/BCFZ_PRD/on/demandware.static/-/Sites-br-master-catalog/default/dwde8be8ae/webcontent/0017/667/882/cn17667882.jpg?sw=250&sh=500&sm=fit",
+                    "price":"100",
+                    "sex": "Mujer"
                 },
                 {
                     "objectId":"acbrp1",
                     "type":"Accesorios",
-                    "name":"",
-                    "image":"",
-                    "price":""
+                    "name":"Double Stripe Silk Nanotex Tie",
+                    "image":"https://www.bananarepublic.eu/dw/image/v2/BCFZ_PRD/on/demandware.static/-/Sites-br-master-catalog/default/dw88bb608b/webcontent/0014/950/388/cn14950388.jpg?sw=250&sh=500&sm=fit",
+                    "price":"54.95",
+                    "sex": "Hombre"
                 }
             ]
         },
@@ -2047,9 +2052,42 @@
                 {
                     "objectId":"sc&a1",
                     "type":"Sudaderas",
-                    "name":"",
-                    "image":"",
-                    "price":""
+                    "name":"Sudadera de cremallera y capucha",
+                    "image":"https://www.c-and-a.com/productimages/c_scale,h_536,q_auto:eco,e_sharpen:70/v1610546818/2119096-1-08.jpg",
+                    "price":"29.99",
+                    "sex": "Mujer"
+                },
+                {
+                    "objectId":"ccc&ap1",
+                    "type":"Camisas y camisetas",
+                    "name":"Clockhouse blusa",
+                    "image":"https://www.c-and-a.com/productimages/c_scale,h_536,q_auto:eco,e_sharpen:70/v1613551293/2142870-1-08.jpg",
+                    "price":"12.99",
+                    "sex": "Mujer"
+                },
+                {
+                    "objectId":"pc&ap1",
+                    "type":"Pantalones",
+                    "name":"Chinos - Regular Fit",
+                    "image":"https://www.c-and-a.com/es/es/shop/pantalon-2121388/5?categoryId=15015",
+                    "price":"39.99",
+                    "sex": "Hombre"
+                },
+                {
+                    "objectId":"zc&ap1",
+                    "type":"Zapatillas",
+                    "name":"Mercedes - zapatos de cordones polipiel",
+                    "image":"https://www.c-and-a.com/es/es/shop/zapato-budapest-2134788/1?categoryId=40707",
+                    "price":"49.99",
+                    "sex": "Hombre"
+                },
+                {
+                    "objectId":"sc&a1",
+                    "type":"Accesorios",
+                    "name":"Mochila",
+                    "image":"https://www.c-and-a.com/es/es/shop/bolso-2122826/1?categoryId=40707",
+                    "price":"59.99",
+                    "sex": "Mujer"
                 }
             ]
         },
@@ -2060,9 +2098,42 @@
                 {
                     "objectId":"szr1",
                     "type":"Sudaderas",
-                    "name":"",
-                    "image":"",
-                    "price":""
+                    "name":"Sudadera lavada",
+                    "image":"https://static.zara.net/photos///2021/V/0/2/p/0722/415/512/2/w/850/0722415512_2_4_1.jpg?ts=1614617840113",
+                    "price":"25.95",
+                    "sex": "Hombre"
+                },
+                {
+                    "objectId":"cczrp1",
+                    "type":"Camisas y camisetas",
+                    "name":"Camisa color",
+                    "image":"https://static.zara.net/photos//mkt/misc/watermarks/joinlife-ss19-v2/joinlife-large.svg?ts=1587055628000",
+                    "price":"19.95",
+                    "sex": "Hombre"
+                },
+                {
+                    "objectId":"pzrp1",
+                    "type":"Pantalones",
+                    "name":"Pantalón Jogger Cargo",
+                    "image":"https://static.zara.net/photos///2021/V/0/1/p/6164/076/712/2/w/1024/6164076712_1_1_1.jpg?ts=1615538095644",
+                    "price":"25.95",
+                    "sex": "Mujer"
+                },
+                {
+                    "objectId":"zzrp1",
+                    "type":"Zapatillas",
+                    "name":"Sandalia Tacón Tiras Finas",
+                    "image":"https://static.zara.net/photos///2021/V/1/1/p/3310/710/070/2/w/375/3310710070_2_8_1.jpg?ts=1615305205876",
+                    "price":"29.95",
+                    "sex": "Mujer"
+                },
+                {
+                    "objectId":"aczrp1",
+                    "type":"Accesorios",
+                    "name":"Pack pulseras rígidas eslabones",
+                    "image":"https://static.zara.net/photos///2021/V/0/1/p/4319/237/303/2/w/375/4319237303_6_1_1.jpg?ts=1615376007222",
+                    "price":"12.95",
+                    "sex": "Mujer"
                 }
             ]
         },
@@ -2073,9 +2144,42 @@
                 {
                     "objectId":"shb1",
                     "type":"Sudaderas",
-                    "name":"",
-                    "image":"",
-                    "price":""
+                    "name":"Sudadera en felpa de rizo con logo relleno de cristales",
+                    "image":"https://images.hugoboss.com/is/image/boss/hbeu50442497_001_300?wid=768&qlt=80",
+                    "price":"109.95",
+                    "sex": "Mujer"
+                },
+                {
+                    "objectId":"cchb1",
+                    "type":"Camisas y camisetas",
+                    "name":"Camisa regular fit en algodón",
+                    "image":"https://images.hugoboss.com/is/image/boss/hbeu50416086_450_340?wid=768&qlt=80",
+                    "price":"99.95",
+                    "sex": "Hombre"
+                },
+                {
+                    "objectId":"phb1",
+                    "type":"Pantalones",
+                    "name":"Chinos tapered en satén de algodón elástico cepillado",
+                    "image":"https://images.hugoboss.com/is/image/boss/hbeu50442037_001_350?wid=768&qlt=80",
+                    "price":"99.95",
+                    "sex": "Hombre"
+                },
+                {
+                    "objectId":"zhb1",
+                    "type":"Zapatillas",
+                    "name":"Deportivas tipo calcetín unisex con empeines REPREVE",
+                    "image":"https://images.hugoboss.com/is/image/boss/hbeu50451654_275_200?wid=768&qlt=80",
+                    "price":"199",
+                    "sex": "Mujer"
+                },
+                {
+                    "objectId":"achb1",
+                    "type":"Accesorios",
+                    "name":"Tarjetero de piel estructurada con herrajes piramidales",
+                    "image":"https://images.hugoboss.com/is/image/boss/hbeu50449309_001_241?wid=768&qlt=80",
+                    "price":"99",
+                    "sex": "Mujer"
                 }
             ]
         },
@@ -2086,9 +2190,42 @@
                 {
                     "objectId":"snk1",
                     "type":"Sudaderas",
-                    "name":"",
-                    "image":"",
-                    "price":""
+                    "name":"Jordan Flight Fleece",
+                    "image":"https://static.nike.com/a/images/c_limit,w_318,f_auto/t_product_v1/11484926-a798-48ad-b504-508efd913f5b/jordan-flight-fleece-sudadera-con-capucha-y-estampado-kXKhHg.jpg",
+                    "price":"89.99",
+                    "sex": "Hombre"
+                },
+                {
+                    "objectId":"ccnk1",
+                    "type":"Camisas y camisetas",
+                    "name":"Primera equipación Stadium Corea 2020",
+                    "image":"https://static.nike.com/a/images/c_limit,w_318,f_auto/t_product_v1/c7e689da-470f-44c5-a003-035b82f36b6c/primera-equipacion-stadium-corea-2020-camiseta-de-futbol-7z8PrM.jpg",
+                    "price":"89.99",
+                    "sex": "Mujer"
+                },
+                {
+                    "objectId":"pnk1",
+                    "type":"Pantalones",
+                    "name":"Nike Sportswear Air Max",
+                    "image":"https://static.nike.com/a/images/c_limit,w_318,f_auto/t_product_v1/ea60ff7c-ec1a-4e63-8456-d95b8b197f7c/sportswear-air-max-pantalon-de-tejido-fleece-dSCSCj.jpg",
+                    "price":"69.99",
+                    "sex": "Hombre"
+                },
+                {
+                    "objectId":"snk1",
+                    "type":"Zapatillas",
+                    "name":"Nike Air Max 90 SE",
+                    "image":"https://static.nike.com/a/images/c_limit,w_318,f_auto/t_product_v1/380aee4c-73a7-4433-8286-8e7d3a97b1d1/air-max-90-se-zapatillas-sgnN2d.jpg",
+                    "price":"149.99",
+                    "sex": "Mujer"
+                },
+                {
+                    "objectId":"acnk1",
+                    "type":"Accesorios",
+                    "name":"Nike Utility Elite",
+                    "image":"https://static.nike.com/a/images/c_limit,w_318,f_auto/t_product_v1/1d59da40-eabf-4bb7-a12a-c682223cc0fa/utility-elite-mochila-de-entrenamiento-qZKpwc.jpg",
+                    "price":"79.99",
+                    "sex": "Mujer"
                 }
             ]
         },
@@ -2278,6 +2415,54 @@
                     "name":"",
                     "image":"",
                     "price":""
+                },
+                {
+                    "objectId":"slv1",
+                    "type":"Sudaderas",
+                    "name":"Sudadera Blanca",
+                    "image":"https://images-na.ssl-images-amazon.com/images/I/61NiJKxMoSL._AC_UL1500_.jpg",
+                    "price":29.99,
+                    "sex":"Mujer"
+                }, 
+                {
+                    "objectId":"cclv1",
+                    "type":"Camisas y camisetas",
+                    "name":"Camisa Típica",
+                    "image":"https://i.pinimg.com/564x/6d/d5/df/6dd5df619efb55a1c95795beda5a5f34.jpg",
+                    "price":19.99,
+                    "sex":"Hombre"
+                },
+                {
+                    "objectId":"plv1",
+                    "type":"Pantalones",
+                    "name":"Pantalones Vaqueros",
+                    "image":"https://images-na.ssl-images-amazon.com/images/I/81Rjoms5zTL._AC_UX342_.jpg",
+                    "price":44.99,
+                    "sex":"Hombre"
+                },
+                {
+                    "objectId":"zlv1",
+                    "type":"Zapatillas",
+                    "name":"Zapatillas Blancas",
+                    "image":"https://images-na.ssl-images-amazon.com/images/I/71pmWGF7RsL._AC_UX395_.jpg",
+                    "price":49.99,
+                    "sex":"Hombre"
+                },
+                {
+                    "objectId":"zlv2",
+                    "type":"Zapatillas",
+                    "name":"Zapatillas Converse Levi's",
+                    "image":"https://dhb3yazwboecu.cloudfront.net/1070/zapatillas-levis-beige-valb0002t-1_m.jpg",
+                    "price":49.99,
+                    "sex":"Mujer"
+                },
+                {
+                    "objectId":"aclv1",
+                    "type":"Accesorios",
+                    "name":"Bañador",
+                    "image":"https://images-na.ssl-images-amazon.com/images/I/51OPHpeWu0L._UX679_.jpg",
+                    "price":24.99,
+                    "sex":"Mujer"
                 }
             ]
         },
@@ -2288,9 +2473,82 @@
                 {
                     "objectId":"snwb1",
                     "type":"Sudaderas",
-                    "name":"",
-                    "image":"",
-                    "price":""
+                    "name":"Sudadera Nueva Colección",
+                    "image":"https://storage.googleapis.com/tradeinn-images/images/products_image/13761/fotos/137615831.jpg",
+                    "price":32.90,
+                    "sex":"Hombre"
+                }, 
+                {
+                    "objectId":"snwb2",
+                    "type":"Sudaderas",
+                    "name":"Sudadera Gris Deporte",
+                    "image":"https://images.stylight.net/image/upload/e_trim/t_web_product_330x440max_nobg/q_auto:eco,f_auto/jxvdwoisnb2xsbx7dfxk.jpg",
+                    "price":19.99,
+                    "sex":"Mujer"
+                }, 
+                {
+                    "objectId":"ccnwb1",
+                    "type":"Camisas y camisetas",
+                    "name":"Camiseta de Deporte",
+                    "image":"https://cdn.grupoelcorteingles.es/SGFM/dctm/MEDIA03/202007/15/00182869810554____1__640x640.jpg",
+                    "price":19.99,
+                    "sex":"Mujer"
+                },
+                {
+                    "objectId":"ccnwb2",
+                    "type":"Camisas y camisetas",
+                    "name":"Camiseta de Deporte",
+                    "image":"https://cdn.grupoelcorteingles.es/SGFM/dctm/MEDIA03/202007/15/00182869810554____1__640x640.jpg",
+                    "price":19.99,
+                    "sex":"Mujer"
+                },
+                {
+                    "objectId":"pnwb1",
+                    "type":"Pantalones",
+                    "name":"Leggins de Deporte",
+                    "image":"https://nb.scene7.com/is/image/NB/wp03288dbk_nb_40_i?$pdpflexf2$",
+                    "price":19.99,
+                    "sex":"Mujer"
+                },
+                {
+                    "objectId":"pnwb2",
+                    "type":"Pantalones",
+                    "name":"Leggins de Deporte",
+                    "image":"https://nb.scene7.com/is/image/NB/wp03288dbk_nb_40_i?$pdpflexf2$",
+                    "price":19.99,
+                    "sex":"Mujer"
+                },
+                {
+                    "objectId":"znwb1",
+                    "type":"Zapatillas",
+                    "name":"Zapatillas Color Militar",
+                    "image":"https://www.gochollos.com/wp-content/uploads/2019/01/new-balance-ml574egn-zapatillas-hombre-verde-olivegrey-42-eu.jpg",
+                    "price":29.99,
+                    "sex":"Hombre"
+                },
+                {
+                    "objectId":"znwb2",
+                    "type":"Zapatillas",
+                    "name":"Zapatillas Comodix",
+                    "image":"https://cdn.laredoute.com/products/362by362/c/6/c/c6c4b9577542189da1a25fba6391b26c.jpg",
+                    "price":29.99,
+                    "sex":"Mujer"
+                },
+                {
+                    "objectId":"acnwb1",
+                    "type":"Accesorios",
+                    "name":"Calzoncillos UltraCómodos",
+                    "image":"https://images-na.ssl-images-amazon.com/images/I/A1j0FMnAaYL._AC_SX425_.jpg",
+                    "price":14.99,
+                    "sex":"Hombre"
+                },
+                {
+                    "objectId":"acnwb2",
+                    "type":"Accesorios",
+                    "name":"Gafas de Deporte",
+                    "image":"https://d30o7qbghf97ws.cloudfront.net/itemimage/1795534/image/list-02966131afba66af93a23200c5a9f78f.jpg",
+                    "price":14.99,
+                    "sex":"Hombre"
                 }
             ]
         },
@@ -2301,9 +2559,50 @@
                 {
                     "objectId":"scl1",
                     "type":"Sudaderas",
-                    "name":"",
-                    "image":"",
-                    "price":""
+                    "name":"Sudadera Azul Deporte",
+                    "image":"https://www.marti.mx/arquivos/ids/486069-1150-1150/1127876267-1.png?v=637339897411000000",
+                    "price":19.99,
+                    "sex":"Hombre"
+                }, 
+                {
+                    "objectId":"cccl1",
+                    "type":"Camisas y camisetas",
+                    "name":"Camisa Militar",
+                    "image":"https://i.pinimg.com/originals/1c/7f/6c/1c7f6c58cb8e2a1f7058a99108076596.webp",
+                    "price":19.99,
+                    "sex":"Mujer"
+                },
+                {
+                    "objectId":"pcl1",
+                    "type":"Pantalones",
+                    "name":"Pantalones Militares",
+                    "image":"https://lh3.googleusercontent.com/proxy/BFji23QMMZd1RRKsU2gYJWvnfmLmdqy1CEClaUVzqRK_uf-LezZ9kSOs_gbZj8nNV0lZPpKXYLwzUmWgIjZONTliFjqA6sb3QOMqF2QGgsIDHEAidQyrwFmjGD9aviXWLF2i-CXWTb4NYiYTOQ",
+                    "price":24.99,
+                    "sex":"Hombre"
+                },
+                {
+                    "objectId":"zcl1",
+                    "type":"Zapatillas",
+                    "name":"Zapatillas de Montaña",
+                    "image":"https://media-esp-buyviu-com.s3.amazonaws.com/products/47c81b27fb5a6a7929a490e3f4c0a255-labelium-columbia-sportswear_thumb.png",
+                    "price":39.99,
+                    "sex":"Hombre"
+                },
+                {
+                    "objectId":"zcl2",
+                    "type":"Zapatillas",
+                    "name":"Zapatillas Comodix",
+                    "image":"https://www.intersport.es/dw/image/v2/BBWT_PRD/on/demandware.static/-/Sites-intersport-master-catalog/default/dwe04792a7/images/iic-columbia-1864991-010-hero-ies-0001.jpg?sw=350&sh=350&sm=fit",
+                    "price":39.99,
+                    "sex":"Mujer"
+                },
+                {
+                    "objectId":"accl1",
+                    "type":"Accesorios",
+                    "name":"Sombrero de Montaña",
+                    "image":"https://c0.klipartz.com/pngpicture/859/879/gratis-png-columbia-ropa-de-deporte-columbia-ninos-sombrero-camisa-sombrero-thumbnail.png",
+                    "price":9.99,
+                    "sex":"Unisex"
                 }
             ]
         },
@@ -2314,10 +2613,44 @@
                 {
                     "objectId":"svg1",
                     "type":"Sudaderas",
-                    "name":"",
-                    "image":"",
-                    "price":""
+                    "name":"Sudadera Negra Vogue",
+                    "image":"https://i.pinimg.com/originals/ef/22/2c/ef222c986ca19bb909cd5106bc953e42.jpg",
+                    "price":24.99,
+                    "sex":"Mujer"
+                }, 
+                {
+                    "objectId":"ccvg1",
+                    "type":"Camisas y camisetas",
+                    "name":"Camiseta Chick",
+                    "image":"https://i.pinimg.com/originals/7a/aa/08/7aaa087a603ee4664c3e99a7802998f1.png",
+                    "price":19.99,
+                    "sex":"Mujer"
+                },
+                {
+                    "objectId":"pvg1",
+                    "type":"Pantalones",
+                    "name":"Pantalones Negros",
+                    "image":"https://www.dhresource.com/0x0/f2/albu/g10/M01/5F/03/rBVaVlyYyFSABooyAADTJlBW_xk555.jpg/men-new-side-pockets-pencil-pants-joggers.jpg",
+                    "price":29.99,
+                    "sex":"Hombre"
+                },
+                {
+                    "objectId":"zvg1",
+                    "type":"Zapatillas",
+                    "name":"Deportivas Blancas y Negras",
+                    "image":"https://media.vogue.es/photos/5cc750288f6f67f8285be9ef/master/w_2700,c_limit/voguees_moda_tendencias_874276117.jpg",
+                    "price":59.99,
+                    "sex":"Mujer"
+                },
+                {
+                    "objectId":"acvg1",
+                    "type":"Accesorios",
+                    "name":"Gafas de Vogue",
+                    "image":"https://images-na.ssl-images-amazon.com/images/I/61ISQ1wAEGL._AC_UX679_.jpg",
+                    "price":9.99,
+                    "sex":"Unisex"
                 }
+                
             ]
         },
         {
@@ -2327,9 +2660,42 @@
                 {
                     "objectId":"svs1",
                     "type":"Sudaderas",
-                    "name":"",
-                    "image":"",
-                    "price":""
+                    "name":"Sudadera Versace",
+                    "image":"https://i.pinimg.com/736x/25/c9/96/25c9967eccc160b6e09fc014ad3e0143.jpg",
+                    "price":104.99,
+                    "sex":"Unisex"
+                }, 
+                {
+                    "objectId":"ccvs1",
+                    "type":"Camisas y camisetas",
+                    "name":"Camiseta Chick",
+                    "image":"https://i.pinimg.com/originals/7a/aa/08/7aaa087a603ee4664c3e99a7802998f1.png",
+                    "price":19.99,
+                    "sex":"Mujer"
+                },
+                {
+                    "objectId":"pvs1",
+                    "type":"Pantalones",
+                    "name":"Leggins",
+                    "image":"https://www.versace.com/dw/image/v2/ABAO_PRD/on/demandware.static/-/Sites-ver-master-catalog/default/dwc304dd5c/original/90_AGD03000-AC00336_A732D_10_BaroccoPrintLeggings-VersaceGym-versace-online-store_4_9.jpg?sw=748&sh=1050&sm=fit&sfrm=jpg",
+                    "price":39.99,
+                    "sex":"Mujer"
+                },
+                {
+                    "objectId":"zvs1",
+                    "type":"Zapatillas",
+                    "name":"Deportivas Nueva Colección",
+                    "image":"https://www.versace.com/dw/image/v2/ABAO_PRD/on/demandware.static/-/Sites-ver-master-catalog/default/dwbaaee81d/original/90_DSU8094-D15TCG_D4D_20_TrigrecaTrainers-TrigrecaSneakers-versace-online-store_4_3.jpg?sw=450&sh=632&sm=fit&sfrm=jpg",
+                    "price":109.99,
+                    "sex":"Mujer"
+                },
+                {
+                    "objectId":"acvs1",
+                    "type":"Accesorios",
+                    "name":"Ropa interior",
+                    "image":"https://www.versace.com/dw/image/v2/ABAO_PRD/on/demandware.static/-/Sites-ver-master-catalog/default/dwbb496127/original/90_ABU40000-1F00381_5W060_10_BaroccoMosaicPrintSwimBriefs-Beachwear-versace-online-store_0_2.jpg?sw=850&sh=1200&sm=fit",
+                    "price":49.99,
+                    "sex":"Mujer"
                 }
             ]
         },
@@ -2340,9 +2706,42 @@
                 {
                     "objectId":"stw1",
                     "type":"Sudaderas",
-                    "name":"",
-                    "image":"",
-                    "price":""
+                    "name":"Sudadera Polar",
+                    "image":"https://images-na.ssl-images-amazon.com/images/I/51q1vrVl7jL._AC_SY355_.jpg",
+                    "price":24.99,
+                    "sex":"Mujer"
+                }, 
+                {
+                    "objectId":"cctw1",
+                    "type":"Camisas y camisetas",
+                    "name":"Camiseta Deporte",
+                    "image":"https://cdn.grupoelcorteingles.es/SGFM/dctm/MARKET/843/384/991/843384991559400_WWW_640x640.jpg",
+                    "price":19.99,
+                    "sex":"Hombre"
+                },
+                {
+                    "objectId":"ptw1",
+                    "type":"Pantalones",
+                    "name":"Pantalones Nieve",
+                    "image":"https://www.trangoworld.com/uploads/pantalon-largo-tromouse_PC008478_220_320x334_main.png",
+                    "price":39.99,
+                    "sex":"Hombre"
+                },
+                {
+                    "objectId":"ztw1",
+                    "type":"Zapatillas",
+                    "name":"Deportivas de Montaña",
+                    "image":"https://maspormenos.net/38993-home_default/bestard-zapatillas-trekking-valoria-negra-verde-hombre.jpg",
+                    "price":59.99,
+                    "sex":"Hombre"
+                },
+                {
+                    "objectId":"actw1",
+                    "type":"Accesorios",
+                    "name":"Mochila de Montaña",
+                    "image":"https://www.intersport.es/dw/image/v2/BBWT_PRD/on/demandware.static/-/Sites-intersport-master-catalog/default/dw6ed2d3d5/images/iic-trango-pc008266-150-hero-ies-0001.jpg?sw=350&sh=350&sm=fit",
+                    "price":9.99,
+                    "sex":"Unisex"
                 }
             ]
         },
@@ -2353,9 +2752,82 @@
                 {
                     "objectId":"seg1",
                     "type":"Sudaderas",
-                    "name":"Sudadera confosrdet",
-                    "image":"https://www.catalogomoda.com/fotos/sudadera-de-hombre-el-ganso-foto-539523.jpg",
-                    "price":39.80
+                    "name":"Sudadera Gris",
+                    "image":"https://catalog.21buttons.com/510c966ec98fd621e0759590c1438411c8e9b67c.smedium.jpg",
+                    "price":49.80,
+                    "sex":"Mujer"
+                },
+                {
+                    "objectId":"seg2",
+                    "type":"Sudaderas",
+                    "name":"Sudadera Verde",
+                    "image":"https://images-na.ssl-images-amazon.com/images/I/51xBmKvECoL._AC_UX385_.jpg",
+                    "price":59.80,
+                    "sex":"Hombre"
+                },
+                {
+                    "objectId":"cceg1",
+                    "type":"Camisas y camisetas",
+                    "name":"Camiseta Sencilla",
+                    "image":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQSJPLmD5ApFZ90nhRMCdpJHthfgs0UhT5Adw&usqp=CAU",
+                    "price":29.99,
+                    "sex":"Mujer"
+                },
+                {
+                    "objectId":"cceg2",
+                    "type":"Camisas y camisetas",
+                    "name":"Camisa Perfect",
+                    "image":"https://images-na.ssl-images-amazon.com/images/I/81MvImBRjwL._AC_UL1500_.jpg",
+                    "price":39.99,
+                    "sex":"Hombre"
+                },
+                {
+                    "objectId":"peg1",
+                    "type":"Pantalones",
+                    "name":"Pantalones Chick",
+                    "image":"https://www.valenciablog.com/wp-content/uploads/2015/04/El-Ganso-SS15-Mujer-LOOK-3.jpg",
+                    "price":49.99,
+                    "sex":"Mujer"
+                },
+                {
+                    "objectId":"peg2",
+                    "type":"Pantalones",
+                    "name":"Pantalones a Cuadros",
+                    "image":"https://m.media-amazon.com/images/I/31inKEicWoL.jpg",
+                    "price":49.99,
+                    "sex":"Hombre"
+                },
+                {
+                    "objectId":"zeg1",
+                    "type":"Zapatillas",
+                    "name":"Deportivas Blancas El Ganso",
+                    "image":"https://cdn.elganso.com/media/catalog/product/cache/1/image/640x800/9df78eab33525d08d6e5fb8d27136e95/0/0/0097_1_1.jpg",
+                    "price":59.99,
+                    "sex":"Hombre"
+                },
+                {
+                    "objectId":"zeg2",
+                    "type":"Zapatillas",
+                    "name":"Deportivas Rosas",
+                    "image":"https://i.pinimg.com/originals/1d/06/10/1d06109d407960e76d6fb5a9f8e3b8dc.jpg",
+                    "price":59.99,
+                    "sex":"Mujer"
+                },
+                {
+                    "objectId":"aceg1",
+                    "type":"Accesorios",
+                    "name":"Calcetines",
+                    "image":"https://images-na.ssl-images-amazon.com/images/I/61ISQ1wAEGL._AC_UX679_.jpg",
+                    "price":9.99,
+                    "sex":"Unisex"
+                },
+                {
+                    "objectId":"aceg2",
+                    "type":"Accesorios",
+                    "name":"Cinturon Fino",
+                    "image":"https://d30o7qbghf97ws.cloudfront.net/itemimage/2265238/image/list-238ff3d4d4bb8067fa8187f325b5e339.jpg",
+                    "price":9.99,
+                    "sex":"Hombre"
                 }
             ]
         }

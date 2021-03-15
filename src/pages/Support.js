@@ -1,43 +1,61 @@
 import React from 'react';
-import * as FaIcons from 'react-icons/fa';
-import * as IoIcons from 'react-icons/io5';
-import * as GoIcons from 'react-icons/go';
+//import { FaCommentsDollar } from 'react-icons/fa';
+import { AiOutlineClose } from 'react-icons/ai';
+import { SupportData } from '../components/Support/SupportData';
 
 function Support(){
+
+    const [title, changeTitle] = React.useState(true);
+    const [index, setIndex] = React.useState();
+    const [display, setDisplay] = React.useState(false);
+
+    const handleTitle = (e) => {
+       changeTitle(false);
+       setIndex(e);
+       setDisplay(true);
+    }
+
+    const handleOcult = () =>{
+        changeTitle(true);
+        setDisplay(false);
+    }
+
     return(
-        <div className="support">
-            <div className="support__container">
-                <h1 className="support__container-title">What is the problem?</h1>
-                <div className="support__items">
-                    <ul>
-                        <li className="support__items--link">
-                            <FaIcons.FaTruck className="support__items--link-icon"/>
-                            <p className="support__items--link-text">Problems with <br/> delivery</p>
-                        </li>
-                        <li className="support__items--link">
-                            <IoIcons.IoAlarmSharp className="support__items--link-icon"/>
-                            <p className="support__items--link-text">Im not on time</p>
-                        </li>
-                        <li className="support__items--link">
-                            <GoIcons.GoPerson className="support__items--link-icon"/>
-                            <p className="support__items--link-text">Problems with <br/>the seller</p>
-                        </li>
-                        <li className="support__items--link">
-                            <FaIcons.FaBox className="support__items--link-icon"/>
-                            <p className="support__items--link-text">Problems with <br/>your purchase </p>
-                        </li>
-                        <li className="support__items--link">
-                            <FaIcons.FaPaypal className="support__items--link-icon"/>
-                            <p className="support__items--link-text">Payment method <br/>problems</p>
-                        </li>
-                        <li className="support__items--link">
-                            <IoIcons.IoChatboxEllipses className="support__items--link-icon"/>
-                            <p className="support__items--link-text">Other problems</p>
-                        </li>
-                    </ul>
+        <>
+            <div className="support" >
+                <div className="supportContainer">
+                        { title ? <h1>What is the problem ?</h1> : ''}
+                        <div className="supportItems">
+                        <ul> 
+                            {SupportData.map((i,item) => (
+                                <li key={item} onClick={() => handleTitle(item)}>
+                                    <i className={i.cName}>{i.icon}</i>
+                                    <p>{i.title}</p>
+                                </li>
+                            ))}
+                        </ul>
+                    </div>
+                
+                { display ? 
+                    <div className="supportDescription">
+                        <div className="descriptionContainer">
+                            <div className="containerIcon">
+                                <i>{SupportData[index].icon}</i>
+                            </div>
+                            <div className="supportHelp">
+                                <div className="titleAndClose">
+                                    <h2>{SupportData[index].title}</h2>
+                                    <i><AiOutlineClose onClick={handleOcult}/></i>
+                                </div>
+                                <p>{SupportData[index].description}</p>
+                            </div>
+                        </div>
+                    </div> 
+                : ''
+                }
                 </div>
             </div>
-        </div>
+        </>
     );
 }
 
